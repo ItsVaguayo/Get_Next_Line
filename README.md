@@ -1,5 +1,6 @@
-# get_next_line
+# Get_next_line
 
+![42 School](https://img.shields.io/badge/-School-000000?style=flat-square&logo=42&logoColor=white) <br>
 **get_next_line** is a project I developed as part of my journey through 42, with the goal of implementing a C function able to read from a file descriptor line by line. This function returns a new line on each call, efficiently managing memory and intermediate buffers. One of the main challenges was handling partial reads and preserving leftover data between successive calls, ensuring that each line is delivered completely.
 
 My solution is designed to work correctly with any valid file descriptor and properly handles special cases such as end-of-file (EOF) and various errors. I achieved all this while respecting strict constraints on allowed functions. Through this project, I deepened my understanding of static variables, buffer management, and low-level file I/O operations in C.
